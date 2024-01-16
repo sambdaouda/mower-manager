@@ -22,10 +22,10 @@ Pour programmer la tondeuse, on lui fournit un fichier d'entrée construit comme
 Chaque tondeuse se déplace de façon séquentielle, ce qui signifie que la seconde tondeuse ne bouge que lorsque la première a exécuté intégralement sa série d'instructions.
 Lorsqu'une tondeuse achève une série d'instruction, elle communique sa position et son orientation.
 
-OBJECTIF
+OBJECTIF <br />
 Concevoir et écrire un programme en Java. Ce programme devra implémenter la spécification ci-dessus et passer le test ci-après.
 
-TEST
-Le fichier suivant est fourni en entrée : 5 5 1 2 N GAGAGAGAA 3 3 E AADAADADDA 
-On attend le résultat suivant (position finale des tondeuses) : 1 3 N 5 1 E 
+TEST <br />
+Le fichier suivant est fourni en entrée : 5 5 1 2 N GAGAGAGAA 3 3 E AADAADADDA <br/>
+On attend le résultat suivant (position finale des tondeuses) : 1 3 N 5 1 E <br/>
 NB: Les données en entrée sont injectées sous forme de fichier.
